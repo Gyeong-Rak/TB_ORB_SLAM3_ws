@@ -1,0 +1,4 @@
+Invoking command in '/home/gr/TB_ORB_SLAM3_ws/build/orbslam3': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/gr/TB_ORB_SLAM3_ws/src/orbslam3_ros2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/gr/TB_ORB_SLAM3_ws/install/orbslam3
+Invoked command in '/home/gr/TB_ORB_SLAM3_ws/build/orbslam3' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/gr/TB_ORB_SLAM3_ws/src/orbslam3_ros2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/gr/TB_ORB_SLAM3_ws/install/orbslam3
+Invoking command in '/home/gr/TB_ORB_SLAM3_ws/build/orbslam3': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/gr/TB_ORB_SLAM3_ws/build/orbslam3 -- -j12 -l12
+Invoked command in '/home/gr/TB_ORB_SLAM3_ws/build/orbslam3' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/gr/TB_ORB_SLAM3_ws/build/orbslam3 -- -j12 -l12

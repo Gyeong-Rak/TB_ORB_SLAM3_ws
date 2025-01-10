@@ -1,0 +1,26 @@
+[0.013s] Invoking command in '/home/gr/TB_ORB_SLAM3_ws/build/orbslam3': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/gr/TB_ORB_SLAM3_ws/build/orbslam3 -- -j12 -l12
+[0.079s] [ 25%] [32m[1mLinking CXX executable stereo[0m
+[0.079s] [ 25%] [32m[1mLinking CXX executable rgbd[0m
+[0.079s] [ 25%] [32m[1mLinking CXX executable mono[0m
+[0.079s] [ 33%] [32m[1mLinking CXX executable stereo-inertial[0m
+[0.871s] [ 50%] Built target mono
+[0.963s] [ 66%] Built target rgbd
+[1.006s] [ 83%] Built target stereo
+[1.032s] [100%] Built target stereo-inertial
+[1.041s] Invoked command in '/home/gr/TB_ORB_SLAM3_ws/build/orbslam3' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/gr/TB_ORB_SLAM3_ws/build/orbslam3 -- -j12 -l12
+[1.051s] Invoking command in '/home/gr/TB_ORB_SLAM3_ws/build/orbslam3': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/gr/TB_ORB_SLAM3_ws/build/orbslam3
+[1.057s] -- Install configuration: ""
+[1.057s] -- Execute custom install script
+[1.057s] -- Symlinking: /home/gr/TB_ORB_SLAM3_ws/install/orbslam3/lib/orbslam3/mono
+[1.065s] -- Symlinking: /home/gr/TB_ORB_SLAM3_ws/install/orbslam3/lib/orbslam3/rgbd
+[1.072s] -- Symlinking: /home/gr/TB_ORB_SLAM3_ws/install/orbslam3/lib/orbslam3/stereo
+[1.078s] -- Symlinking: /home/gr/TB_ORB_SLAM3_ws/install/orbslam3/lib/orbslam3/stereo-inertial
+[1.085s] CMake Error at ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:100 (message):
+[1.085s]   ament_cmake_symlink_install_directory() can't find
+[1.085s]   '/home/gr/TB_ORB_SLAM3_ws/src/orbslam3_ros2/launch'
+[1.085s] Call Stack (most recent call first):
+[1.085s]   ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:317 (ament_cmake_symlink_install_directory)
+[1.085s]   cmake_install.cmake:41 (include)
+[1.085s] 
+[1.085s] 
+[1.086s] Invoked command in '/home/gr/TB_ORB_SLAM3_ws/build/orbslam3' returned '1': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/gr/TB_ORB_SLAM3_ws/build/orbslam3
