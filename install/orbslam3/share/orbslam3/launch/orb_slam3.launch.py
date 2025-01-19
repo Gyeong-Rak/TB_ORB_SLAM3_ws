@@ -1,1 +1,0 @@
-/home/gr/TB_ORB_SLAM3_ws/src/orbslam3_ros2/launch/orb_slam3.launch.py
