@@ -1,0 +1,17 @@
+<launch>
+    <arg name="vocabulary_file" default="/path/to/ORBvoc.txt"/>
+    <arg name="camer_config_file" default="/path/to/camera.yaml"/>
+
+    <node
+        pkg="orb_slam3"
+        exec="orb_slam3_node"
+        name="orb_slam3">
+        <param name="vocabulary_file" value="$(arg vocabulary_file)"/>
+        <param name="camera_config_file" value="$(arg camera_config_file)"/>
+
+        <!-- Remapping ZED topics to ORB-SLAM3 topics -->
+        <remap from="/imu" to="/zed/zed_node/imu/data"/>
+        <remap from="/camera/left" to="/zed/zed_node/left/image_rect_color"/>
+        <remap from="/camera/right" to="/zed/zed_node/right/image_rect_color"/>
+    </node>
+</launch>
